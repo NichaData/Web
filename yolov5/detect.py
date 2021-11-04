@@ -264,9 +264,9 @@ def run(weights=ROOT / 'yolov5s.pt',  # model.pt path(s)
     if update:
         strip_optimizer(weights)  # update model (to fix SourceChangeWarning)
     if len(det):
-        return 'The result of the image is : Renal stone'
+        return 'Result: Renal Stone!!!'
     else: 
-        return 'The result of the image is : No stone'
+        return 'Result: No Stone'
 
 def parse_opt():
     parser = argparse.ArgumentParser()
